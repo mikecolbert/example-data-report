@@ -1,0 +1,24 @@
+menu: https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+sticky navbar: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+
+https://reintech.io/blog/creating-a-sticky-navigation-bar-with-css
+
+
+
+
+sticky sections
+main{position: relative;}
+main h2{position: sticky; top: 0;}
+
+
+responsive image in main section
+img.responsive-main {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+<a href="./images/austin_1.JPG" target="_new">
+            <img class="responsive-main" src="./images/austin.jpg" alt="Family trip to Austin, TX">
+          </a>
