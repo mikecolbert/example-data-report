@@ -1,40 +1,52 @@
 /* colors */
-/* green: #04aa6d */
+/* green: #028051 */
+/* offwhite: #FAF9F6 */
+
+/* fonts */
+/* Playfair Display SC  for titles */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+/* Quattrocento Sans for paragraph */
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-  background-color: offwhite;
-  font-family: Arial, sans-serif;
+  background-color: #faf9f6;
   font-size: 1.1rem;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 h1 {
+  font-family: "Playfair Display SC", serif;
   font-size: 2rem;
 }
 
 h2 {
   font-size: 1.5rem;
+  font-family: "Playfair Display SC", serif;
 }
 
 header {
-  background-color: #04aa6d;
+  background-color: #028051;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
 }
 
-nav {
-  background-color: plum;
-}
-
 footer {
-  background-color: skyblue;
+  background-color: #028051;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
 
 section {
   margin: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #028051;
 }
 
 nav ul {
@@ -62,6 +74,13 @@ nav ul li a:hover {
   background-color: #111;
 }
 
+section#intro a#intro,
+section#data a#data {
+  color: #003366;
+  background-color: pink;
+  text-decoration: none;
+}
+
 /* table formatting */
 table {
   border-collapse: collapse;
@@ -76,7 +95,7 @@ td {
 }
 
 th {
-  background-color: #04aa6d;
+  background-color: #028051;
   color: white;
 }
 tr:nth-child(even) {
@@ -104,6 +123,11 @@ tr:hover {
 .error {
   color: red;
   text-decoration: line-through;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 #container {

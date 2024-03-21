@@ -1,5 +1,8 @@
 # hidden Mac file of cached metadata when Finder is used to browse folders
 .DS_Store
+test.css
+test.html
+notes.txt
 
 #VS Code workspace file
 .VSCode
